@@ -1,6 +1,6 @@
 # Project Bootstrapping
 
-## Rough Thoughts
+## 1. Rough Thoughts
 
 - New repo/project/product combining instructional design expertise with customer knowledge
 - Brother is a teacher specializing in instructional design - his knowledge is the core asset
@@ -197,12 +197,12 @@
   - **Success rate optimization**: By filtering for motivated learners, increase overall completion and success rates
   - **Results-oriented positioning**: Appeal to professionals who want direct, no-nonsense skill acquisition
 
-## Analysis
+## 2. Analysis
 
-## Thesis
+## 3. Thesis
 
-## Extrapolation
+## 4. Extrapolation
 
-## Draft Outline
+## 5. Draft Outline
 
-## Final Draft
+## 6. Final Draft
