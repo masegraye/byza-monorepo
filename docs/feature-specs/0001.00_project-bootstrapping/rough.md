@@ -245,7 +245,11 @@ This creates a massive opportunity: a policy enforcement engine that transforms 
 
 **This customer selection strategy aligns perfectly with our product's core purpose**: We're building an outcome-focused knowledge system—one that helps organizations manage their knowledge specifically to effect desired outcomes. Choosing outcome-focused customers creates a natural product-market fit where both the system and its users are optimized for results rather than engagement metrics or user comfort. This alignment means our customers will push the system to actually work, providing the feedback loops necessary to refine policies based on real-world effectiveness rather than theoretical compliance.
 
-The learning platform serves as both our initial market entry and proof-of-concept, but the real business is the underlying policy engine that any software company can use to ensure their AI-generated content meets their standards.
+**At its deepest level, we're attempting to automate what the best organizations achieve through intensive human processes: creating correct, coherent action from organizational knowledge.** Amazon achieves this through leadership principles, six-pagers, and hour-long document reading sessions where teams debate until they reach coherent decisions. McKinsey does it through their structured problem-solving methodology and pyramid principle. The military does it through doctrine and after-action reviews.
+
+These organizations invest enormous resources—blood, sweat, and tears—to ensure their knowledge translates into coherent action rather than just information accumulation. Our system attempts to replicate this continuous alignment process automatically, as knowledge becomes known to the system, rather than requiring periodic intensive human interventions.
+
+This is why the policy enforcement engine is so critical: it's not just about content compliance, it's about organizational coherence at scale. The learning platform serves as both our initial market entry and proof-of-concept, but the real business is giving any organization the ability to maintain Amazon-level coherence without Amazon-level process overhead.
 
 ## 4. Extrapolation
 
