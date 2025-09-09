@@ -232,24 +232,25 @@ Given the complexity and scope of ideas in our rough thoughts, we need clear cri
 
 ## 3. Thesis
 
-**The core problem in AI-generated content is not quality but compliance—LLMs excel at creating content but fail catastrophically at adhering to organizational policies, standards, and knowledge frameworks.** 
+**The most valuable organizations don't just accumulate knowledge—they transform knowledge into coherent action.** Amazon does this through leadership principles and six-pagers, McKinsey through structured methodology, the military through doctrine and after-action reviews. These elite organizations invest enormous human capital to ensure their knowledge creates coherent action rather than information chaos. But this process doesn't scale: it requires intensive human intervention, breaks down across organizational boundaries, and fails when knowledge evolves faster than humans can process it.
 
-This creates a massive opportunity: a policy enforcement engine that transforms high-level objectives into hierarchical, multi-level policies and continuously validates content until zero violations remain. Such a system becomes the foundation for any AI-powered information product that must meet specific standards, from learning content to technical documentation to customer communications.
+**We're building a system that automates organizational coherence at the speed of knowledge creation.**
 
-**Our thesis is threefold:**
-1. **Policy-first architecture beats post-hoc validation**: Rather than generating content and then checking compliance, we enforce policies during generation through continuous upleveling and cross-level validation.
+Our core insight: **The problem isn't that AI generates bad content—it's that AI generates content without organizational coherence.** LLMs can create excellent individual pieces but cannot ensure those pieces align with organizational principles, support consistent decision-making, or build toward coherent outcomes. This creates a massive opportunity: a policy-driven system that maintains organizational coherence automatically as new knowledge enters the system.
 
-2. **Local-first systems enable broader adoption**: By working locally before requiring cloud connectivity, we reduce barriers to adoption and enable organizational knowledge systems that start private and gradually open to collaboration.
+**Our thesis has four pillars:**
 
-3. **Professional accountability as customer filter**: By taking a "tough love" approach focused on results rather than accommodation, we attract self-motivated customers who drive to completion, creating a higher success rate that becomes our competitive moat.
+1. **Coherence-first architecture**: Rather than generating content and hoping for alignment, we enforce organizational coherence through hierarchical policies that ensure every piece of content serves the organization's strategic objectives.
 
-**This customer selection strategy aligns perfectly with our product's core purpose**: We're building an outcome-focused knowledge system—one that helps organizations manage their knowledge specifically to effect desired outcomes. Choosing outcome-focused customers creates a natural product-market fit where both the system and its users are optimized for results rather than engagement metrics or user comfort. This alignment means our customers will push the system to actually work, providing the feedback loops necessary to refine policies based on real-world effectiveness rather than theoretical compliance.
+2. **Continuous knowledge integration**: As new information becomes known to the system, it automatically validates against existing knowledge and updates policies to maintain coherence, replacing periodic human-intensive alignment processes.
 
-**At its deepest level, we're attempting to automate what the best organizations achieve through intensive human processes: creating correct, coherent action from organizational knowledge.** Amazon achieves this through leadership principles, six-pagers, and hour-long document reading sessions where teams debate until they reach coherent decisions. McKinsey does it through their structured problem-solving methodology and pyramid principle. The military does it through doctrine and after-action reviews.
+3. **Local-first organizational privacy**: Organizations need to develop coherence privately before exposing their knowledge systems externally. Our local-first approach enables this natural progression from internal coherence to external collaboration.
 
-These organizations invest enormous resources—blood, sweat, and tears—to ensure their knowledge translates into coherent action rather than just information accumulation. Our system attempts to replicate this continuous alignment process automatically, as knowledge becomes known to the system, rather than requiring periodic intensive human interventions.
+4. **Outcome-focused customer alignment**: By targeting organizations and individuals who prioritize results over comfort, we create a feedback loop where customer success drives system improvement, building a moat through effectiveness rather than engagement.
 
-This is why the policy enforcement engine is so critical: it's not just about content compliance, it's about organizational coherence at scale. The learning platform serves as both our initial market entry and proof-of-concept, but the real business is giving any organization the ability to maintain Amazon-level coherence without Amazon-level process overhead.
+**The learning platform serves as our proof-of-concept**: if we can help professionals create coherent learning experiences that actually change behavior, we demonstrate the system's ability to maintain coherence at the most challenging level—human behavioral change. Success here proves the system can handle any organizational coherence challenge.
+
+The real business is selling organizational coherence as a service: giving any organization the ability to maintain Amazon-level knowledge-to-action alignment without Amazon-level process overhead.
 
 ## 4. Extrapolation
 
