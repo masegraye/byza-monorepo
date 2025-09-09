@@ -180,6 +180,23 @@
   - **Transferable Skills Focus**: Policies should emphasize connecting new knowledge to existing learner expertise
   - **Community/Social Learning**: Need policies for peer interaction, forums, collaborative elements
 
+- **Additional Key Additions from LXD Analysis:**
+  - **Learner-centric policies**: System needs to account for emotional states, learning styles, and accessibility from the ground up
+  - **Outcome-based validation**: Policies should be validated against actual behavioral change/skill acquisition, not just content quality
+  - **Assessment integration**: System needs both formative (feedback) and summative (evaluation) assessment policies built-in
+  - **Social learning dimension**: Community/peer interaction policies needed beyond individual content consumption
+  - **Multi-modal reinforcement**: LXD document reinforces our voice+visual approach
+  - **Broader applicability**: Policy-based system for organizational knowledge extends well into educational contexts beyond just documentation
+
+- **LXD Departures - Our Differentiation:**
+  - **Professional-focused**: Primarily for professionals learning professional skills, not general education
+  - **Limited social learning**: Only care about social aspects where professional performance is assessed by peers/managers/stakeholders
+  - **"Non-woke" approach**: Acknowledge "emotional states" and "learning styles" exist but take "tough love" approach
+  - **Personal accountability emphasis**: Foster self-responsibility rather than accommodation
+  - **Customer self-selection strategy**: Attract "right kind" of customer who will self-drive to completion
+  - **Success rate optimization**: By filtering for motivated learners, increase overall completion and success rates
+  - **Results-oriented positioning**: Appeal to professionals who want direct, no-nonsense skill acquisition
+
 ## Analysis
 
 ## Thesis
