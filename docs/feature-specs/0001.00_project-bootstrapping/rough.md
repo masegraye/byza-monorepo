@@ -197,6 +197,38 @@
   - **Success rate optimization**: By filtering for motivated learners, increase overall completion and success rates
   - **Results-oriented positioning**: Appeal to professionals who want direct, no-nonsense skill acquisition
 
+- **Generation Strategy Considerations:**
+  - **Timing of policy application**: Apply after every sentence? Paragraph? Page? Or at predefined checkpoints?
+  - **Performance vs accuracy tradeoffs**: More frequent policy checks = better coherence but slower generation
+  - **Streaming vs batch generation**: Does policy enforcement work with streaming LLM outputs or require complete chunks?
+  - **Incremental vs holistic validation**: Can we validate incrementally as content grows, or need full context each time?
+  - **Policy scope considerations**: Some policies only make sense at certain content levels (word-level vs document-level)
+  - **Backtracking capabilities**: If policy violation detected mid-generation, do we regenerate from violation point or start over?
+  - **Caching and optimization**: Can we cache policy validation results for unchanged content sections?
+  - **Real-time vs asynchronous**: Should policy enforcement block content generation or run in background with alerts?
+  - **Progressive refinement**: Generate rough draft first, then apply policies in multiple passes vs enforce during initial generation?
+  - **Continuous evaluation triggers**: Policy checks at generation time vs after every meaningful change
+  - **Change event types**: User edits, external document updates, policy modifications, principle updates
+  - **Ripple effect handling**: When upstream document changes, how do we identify and re-evaluate all downstream dependents?
+  - **Event-driven architecture**: System responds to change events rather than polling for changes
+  - **Debouncing strategies**: Avoid thrashing when multiple rapid changes occur (e.g. typing)
+  - **Dependency graph maintenance**: Track which content pieces depend on others for efficient re-evaluation
+  - **Incremental vs full re-evaluation**: When change occurs, re-check everything or just affected portions?
+  - **Background processing**: Long-running policy evaluations shouldn't block user interaction
+  - **Change notification system**: How does system inform users when upstream changes affect their content?
+
+- **Dependency Graph & External Artifact Management:**
+  - **Cross-system dependency tracking**: Graph must understand which internal content feeds external artifacts (blogs, shared docs, printed materials)
+  - **External feedback integration**: When corrections/changes come back from external systems, need reconciliation process within graph
+  - **Bi-directional sync challenges**: Internal changes → external artifacts is manageable, but external changes → internal requires human judgment
+  - **Out-of-date detection**: System must identify when downstream docs are affected by upstream changes but cannot auto-update them
+  - **Human integration requirement**: People must understand and integrate changes into their own understanding - cannot be fully automated
+  - **Notification vs auto-update distinction**: System should alert about dependencies but not automatically propagate changes
+  - **Change impact analysis**: When upstream change occurs, system calculates which downstream artifacts are potentially affected
+  - **Version reconciliation**: How to handle when external artifact diverges from internal source - which version is authoritative?
+  - **Export/import boundaries**: Clear delineation between what system manages directly vs what it tracks as external dependencies
+  - **Feedback loop integration**: External feedback becomes input to policy refinement and organizational knowledge updates
+
 ## 2. Analysis
 
 ### 2.1 Elevator Pitch
