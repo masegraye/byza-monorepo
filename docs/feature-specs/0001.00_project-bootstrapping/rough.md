@@ -232,6 +232,21 @@ Given the complexity and scope of ideas in our rough thoughts, we need clear cri
 
 ## 3. Thesis
 
+**The core problem in AI-generated content is not quality but compliance—LLMs excel at creating content but fail catastrophically at adhering to organizational policies, standards, and knowledge frameworks.** 
+
+This creates a massive opportunity: a policy enforcement engine that transforms high-level objectives into hierarchical, multi-level policies and continuously validates content until zero violations remain. Such a system becomes the foundation for any AI-powered information product that must meet specific standards, from learning content to technical documentation to customer communications.
+
+**Our thesis is threefold:**
+1. **Policy-first architecture beats post-hoc validation**: Rather than generating content and then checking compliance, we enforce policies during generation through continuous upleveling and cross-level validation.
+
+2. **Local-first systems enable broader adoption**: By working locally before requiring cloud connectivity, we reduce barriers to adoption and enable organizational knowledge systems that start private and gradually open to collaboration.
+
+3. **Professional accountability as customer filter**: By taking a "tough love" approach focused on results rather than accommodation, we attract self-motivated customers who drive to completion, creating a higher success rate that becomes our competitive moat.
+
+**This customer selection strategy aligns perfectly with our product's core purpose**: We're building an outcome-focused knowledge system—one that helps organizations manage their knowledge specifically to effect desired outcomes. Choosing outcome-focused customers creates a natural product-market fit where both the system and its users are optimized for results rather than engagement metrics or user comfort. This alignment means our customers will push the system to actually work, providing the feedback loops necessary to refine policies based on real-world effectiveness rather than theoretical compliance.
+
+The learning platform serves as both our initial market entry and proof-of-concept, but the real business is the underlying policy engine that any software company can use to ensure their AI-generated content meets their standards.
+
 ## 4. Extrapolation
 
 ## 5. Draft Outline
