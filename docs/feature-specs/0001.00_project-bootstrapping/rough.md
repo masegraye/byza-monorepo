@@ -229,6 +229,45 @@
   - **Export/import boundaries**: Clear delineation between what system manages directly vs what it tracks as external dependencies
   - **Feedback loop integration**: External feedback becomes input to policy refinement and organizational knowledge updates
 
+- **Policy Contradiction Detection - Complex Challenge:**
+  - **Syntactic vs semantic contradictions**: Easy to detect "paragraphs must be <100 words" vs "paragraphs must be >150 words", harder to detect semantic conflicts
+  - **Contextual contradictions**: Policies might only conflict under specific content scenarios or conditions
+  - **Cross-level contradictions**: Sentence-level policy might conflict with paragraph-level policy when applied to same content
+  - **Temporal contradictions**: Policies that conflict when applied in sequence but not in isolation
+  - **Implicit contradictions**: Policies that don't explicitly contradict but make it impossible to satisfy both simultaneously
+  - **Detection mechanisms**:
+    - **Formal logical analysis**: Express policies as logical statements, use theorem proving to detect conflicts
+    - **Semantic embedding analysis**: Vector representations of policies, detect when embeddings point in opposite directions
+    - **Test case generation**: Generate sample content, see if applying policies produces contradictory feedback
+    - **LLM-based reasoning**: Ask LLM to analyze policy sets for potential conflicts
+    - **Runtime conflict detection**: Only discover contradictions when they occur during actual content evaluation
+  - **Contradiction severity levels**: Some conflicts are absolute blockers, others are tensions that need human judgment
+  - **Policy dependency mapping**: Understanding which policies interact with each other to focus contradiction detection
+
+### 1.1 Open Questions
+
+- **Technical Architecture:**
+  - **Contradiction detection mechanisms**: How do we detect when policies contradict each other? Formal logical analysis, semantic embedding similarity, test case conflicts, human flagging?
+  - **Conflict resolution mechanisms**: What happens when policies contradict each other? How do we prioritize or resolve conflicts?
+  - **Scalability considerations**: How does the system perform with thousands of documents and complex dependency webs?
+  - **Data persistence and backup**: How do we handle system failures, data corruption, version history?
+  - **Security model**: Who can modify policies vs content? How do we handle sensitive organizational knowledge?
+
+- **Business Model:**
+  - **Pricing strategy**: Per-user, per-organization, per-policy-check, freemium model?
+  - **Implementation methodology**: How do organizations onboard? Do we provide consulting services?
+  - **Integration ecosystem**: APIs for connecting to existing tools (Slack, Notion, Google Docs, etc.)?
+
+- **User Experience:**
+  - **Learning curve**: How do non-technical users create effective policies?
+  - **Policy debugging**: When content fails policy checks, how do users understand why and fix it?
+  - **Collaboration workflows**: How do teams work together within the policy system?
+  - **Mobile experience**: Does voice-first work on mobile? What's the mobile editing experience?
+
+- **Competitive Landscape:**
+  - **Existing solutions analysis**: What are companies currently using for this problem?
+  - **Differentiation strategy**: Beyond policy enforcement, what makes us defensible?
+
 ## 2. Analysis
 
 ### 2.1 Elevator Pitch
