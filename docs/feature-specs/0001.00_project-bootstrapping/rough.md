@@ -244,6 +244,17 @@
   - **Contradiction severity levels**: Some conflicts are absolute blockers, others are tensions that need human judgment
   - **Policy dependency mapping**: Understanding which policies interact with each other to focus contradiction detection
 
+- **Constitutional AI - 3-Body Government Model:**
+  - **Executive Branch (Content Generation)**: LLM creates content with broad discretion within constitutional constraints, like executive branch implements policy
+  - **Legislative Branch (Policy Creation)**: System for creating, modifying, prioritizing policies - human-driven initially, potentially AI-assisted later
+  - **Judicial Branch (Policy Interpretation)**: System that interprets policy conflicts, sets precedent, determines constitutional validity of policies against first principles
+  - **Checks and balances mechanisms**: Each branch constrains the others, preventing any single component from dominating
+  - **Precedent system**: Judicial decisions create binding interpretations for future similar conflicts
+  - **Constitutional hierarchy**: First Principles > Policies > Implementation Rules (like Constitution > Laws > Regulations)
+  - **Amendment process**: Structured methodology for changing fundamental principles when evidence warrants
+  - **Judicial review capability**: Can invalidate policies that violate higher-order principles
+  - **Separation of concerns**: Content generation, rule-making, and conflict resolution are distinct systems with different objectives
+
 ### 1.1 Open Questions
 
 - **Technical Architecture:**
@@ -322,6 +333,26 @@ Our core insight: **The problem isn't that AI generates bad content—it's that 
 **The learning platform serves as our proof-of-concept**: if we can help professionals create coherent learning experiences that actually change behavior, we demonstrate the system's ability to maintain coherence at the most challenging level—human behavioral change. Success here proves the system can handle any organizational coherence challenge.
 
 The real business is selling organizational coherence as a service: giving any organization the ability to maintain Amazon-level knowledge-to-action alignment without Amazon-level process overhead.
+
+### 2.3 Constitutional AI Architecture Analysis
+
+The 3-body government model provides a compelling framework for operationalizing constitutional AI that solves many of our policy contradiction and organizational coherence challenges:
+
+**System Architecture Parallels:**
+- **Executive (Content Generation)**: LLMs generate content with broad creative discretion, but must operate within established constitutional constraints. Like a president implementing policy, they have interpretation flexibility but cannot violate fundamental principles.
+
+- **Legislative (Policy Management)**: Human experts and potentially AI assistants create, modify, and prioritize policies. This branch responds to organizational needs and evidence about policy effectiveness, similar to how Congress adapts laws to changing circumstances.
+
+- **Judicial (Conflict Resolution)**: Specialized AI system that interprets policy conflicts, establishes precedent, and validates new policies against first principles. Acts as constitutional court for the knowledge system.
+
+**Key Benefits for Organizational Coherence:**
+1. **Systematic conflict resolution**: Rather than ad-hoc policy debugging, conflicts get resolved through established judicial processes that create binding precedent
+2. **Constitutional hierarchy**: Clear chain of authority from first principles down to implementation details
+3. **Evolutionary stability**: System can adapt policies while maintaining constitutional coherence
+4. **Separation of concerns**: Content creation, rule-making, and interpretation are distinct systems with different optimization targets
+
+**Implementation Implications:**
+This model suggests our system needs three distinct AI components with different training objectives, not just one policy-enforcement engine. The judicial component especially needs training on legal reasoning, precedent analysis, and principled decision-making rather than content generation.
 
 ## 4. Extrapolation
 
